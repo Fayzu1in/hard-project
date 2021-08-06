@@ -1,0 +1,60 @@
+.container-fluid {
+  background: url(/img/фон.png);
+  height: 1005px;
+  position: absolute;
+}
+
+.navbar > ul > li {
+  display: inline;
+  padding-right: 51px;
+  font-size: 12px;
+}
+li > a {
+  color: white;
+}
+.individual {
+  border: 1px solid #f3cd82;
+  width: 218px;
+  padding: 0px 0px 5px 12px;
+  border-radius: 5px;
+}
+.individual > a > img {
+  background-color: #f3cd82;
+  padding: 0px 10px 4px 11px;
+  margin-left: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.big-nav {
+  backdrop-filter: blur(8px);
+  height: 136px;
+  /* background: rgba(255, 255, 255, 0.363); */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(241, 243, 235, 0.03) 100%
+  );
+}
+.big-nav {
+  display: flex;
+}
+.nav > ul > li {
+  width: 10px;
+}
+.big-nav > ul > li {
+  display: flex;
+  font-size: 12px;
+  padding-right: 33px;
+  text-align: center;
+}
+.big-nav > ul {
+  width: 1170px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  align-items: center;
+}
